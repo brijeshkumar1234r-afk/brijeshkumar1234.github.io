@@ -411,6 +411,154 @@
       100% { transform: rotate(0deg); }
     }
 
+    /* ===============================
+   RESPONSIVE DESIGN
+================================ */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+
+  header h1{
+    font-size: 2.6rem;
+  }
+
+  header p{
+    font-size: 1.2rem;
+  }
+
+  nav{
+    width: 90%;
+    padding: 0.8rem 1rem;
+  }
+
+  nav a{
+    margin: 0 0.6rem;
+    font-size: 0.95rem;
+  }
+
+  .container{
+    padding: 1rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  .project{
+    padding: 1.5rem;
+  }
+
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+
+  header{
+    padding: 3rem 1rem;
+  }
+
+  header h1{
+    font-size: 2.2rem;
+  }
+
+  header p{
+    font-size: 1rem;
+  }
+
+  nav{
+    width: 95%;
+    border-radius: 20px;
+    padding: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a{
+    margin: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  section{
+    padding: 2.5rem 0.5rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  #about .container p{
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .skills{
+    justify-content: center;
+  }
+
+  .skills span{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .project{
+    padding: 1.2rem;
+  }
+
+  .project h3{
+    font-size: 1.3rem;
+  }
+
+  #contact .container{
+    padding: 1.5rem;
+    border-radius: 25px;
+  }
+
+  #contact p{
+    font-size: 1rem;
+    gap: 10px;
+  }
+
+  #contact i{
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+
+}
+
+/* Small phones */
+@media (max-width: 480px){
+
+  header h1{
+    font-size: 1.8rem;
+  }
+
+  header p{
+    font-size: 0.9rem;
+  }
+
+  nav{
+    top: 10px;
+  }
+
+  nav a{
+    font-size: 0.8rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .skills span{
+    font-size: 0.8rem;
+  }
+
+  footer{
+    font-size: 0.9rem;
+  }
+
+}
     /* QA/dev themed small decorations */
     .project h3:nth-of-type(2), .project h3:nth-of-type(3) {
       font-size: 1.4rem;  /* preserve elegance for extra lines */
